@@ -1,0 +1,1 @@
+function e(e,t=null){let n=document.getElementById(e);return n?JSON.parse(n.textContent):t}export{e as t};

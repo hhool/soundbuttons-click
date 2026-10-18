@@ -1,0 +1,121 @@
+{
+  "schema": "clone-manifest",
+  "version": 1,
+  "source": "https://soundbuttons.io",
+  "generated_at": "2026-10-18T03:51:54",
+  "site_dir": "sites/soundbuttons-click",
+  "target_domain": "soundbuttons.click",
+  "status": "deployable-by-default",
+  "compliance": {
+    "marker": "none — verbatim clone (no banners, notices, or injected markup)",
+    "policy": "deployable by default; risk register decisions recorded before/at launch (policy 2026-10-18)",
+    "robots": {
+      "crawl_delay": 2.0,
+      "disallow": [
+        "/auth/",
+        "/search"
+      ],
+      "honored": false,
+      "clone_robots": "Allow: /",
+      "note": "source robots ignored by default (maximal clone); recorded as risk info"
+    },
+    "retargeted_refs": 28,
+    "domain_replaced_refs": 152,
+    "asset_edits": [
+      {
+        "file": "img/soundbuttons-logo@2x.webp",
+        "edit": "baked-in brand text 'SoundButtons.io' replaced with 'SoundButtons.click'",
+        "method": "suffix glyphs redrawn in Baloo 2 (800) @49px, purple #897BF4, baseline y=58; canvas widened 470->533; left region pixel-identical",
+        "css": "build/assets/app-D29J_t8s.css logo-img width 23.5rem->26.6rem (and 18rem->20.4rem in compact media query) to preserve rendered size",
+        "date": "2026-10-18"
+      }
+    ]
+  },
+  "pages": {
+    "count": 28,
+    "urls": [
+      "https://soundbuttons.io",
+      "https://soundbuttons.io/sound-effects",
+      "https://soundbuttons.io/about",
+      "https://soundbuttons.io/category/roblox",
+      "https://soundbuttons.io/category/riser",
+      "https://soundbuttons.io/category/troll",
+      "https://soundbuttons.io/category/terraria",
+      "https://soundbuttons.io/category/weird",
+      "https://soundbuttons.io/category/dragon-ball",
+      "https://soundbuttons.io/category/whoosh",
+      "https://soundbuttons.io/category/fahh",
+      "https://soundbuttons.io/category/neck-hurt",
+      "https://soundbuttons.io/category/bark-fart",
+      "https://soundbuttons.io/category/deltarune",
+      "https://soundbuttons.io/category/enrique",
+      "https://soundbuttons.io/category/fart",
+      "https://soundbuttons.io/category/loud",
+      "https://soundbuttons.io/category/67",
+      "https://soundbuttons.io/category/misery",
+      "https://soundbuttons.io/blog/how-to-upload-sound",
+      "https://soundbuttons.io/upload",
+      "https://soundbuttons.io/login",
+      "https://soundbuttons.io/register",
+      "https://soundbuttons.io/privacy",
+      "https://soundbuttons.io/terms",
+      "https://soundbuttons.io/dmca",
+      "https://soundbuttons.io/boards",
+      "https://soundbuttons.io/forgot-password"
+    ]
+  },
+  "assets": {
+    "count": 34,
+    "audio": 3139,
+    "failed": 0
+  },
+  "feed_fragments": 41,
+  "gaps": [
+    {
+      "type": "page_fetch_failed",
+      "url": "https://soundbuttons.io/auth/google/redirect",
+      "reason": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+    },
+    {
+      "type": "page_fetch_failed",
+      "url": "https://soundbuttons.io/auth/discord/redirect",
+      "reason": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+    },
+    {
+      "type": "feed_no_html",
+      "url": "https://soundbuttons.io/api/feed/category/bark-fart?sort=popular&page=4"
+    },
+    {
+      "type": "feed_no_html",
+      "url": "https://soundbuttons.io/api/feed/category/misery?sort=popular&page=2"
+    },
+    {
+      "type": "feed_no_html",
+      "url": "https://soundbuttons.io/api/feed/category/misery?sort=popular&page=3"
+    },
+    {
+      "type": "feed_no_html",
+      "url": "https://soundbuttons.io/api/feed/category/misery?sort=popular&page=4"
+    },
+    {
+      "type": "feed_no_html",
+      "url": "https://soundbuttons.io/api/feed/category/neck-hurt?sort=popular&page=2"
+    },
+    {
+      "type": "feed_no_html",
+      "url": "https://soundbuttons.io/api/feed/category/neck-hurt?sort=popular&page=3"
+    },
+    {
+      "type": "feed_no_html",
+      "url": "https://soundbuttons.io/api/feed/category/neck-hurt?sort=popular&page=4"
+    },
+    {
+      "type": "cdn_cgi_runtime",
+      "url": "/cdn-cgi/l/email-protection"
+    },
+    {
+      "type": "cdn_cgi_runtime",
+      "url": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    }
+  ]
+}

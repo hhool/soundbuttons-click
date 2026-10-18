@@ -1,0 +1,6 @@
+# Audio files (427MB / 3163 mp3) are intentionally NOT in this repo.
+# Regenerate with SEXTANT clone tool:
+#   python3 tools/clone_site.py <soundbuttons.io-url> --feed-pages 10 --target-domain soundbuttons.click
+# or copy from the canonical working copy:
+#   ~/Desktop/SEXTANT/sites/soundbuttons-click/clone/sounds/
+sounds/
